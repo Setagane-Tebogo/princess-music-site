@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title description">
+  <title id="title">Event photo placeholder</title>
+  <desc id="description">Replace this image with the Sunday Glory Service event photo.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8f5ef"/>
+      <stop offset="1" stop-color="#f9e8f0"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#398675"/>
+      <stop offset="1" stop-color="#cf5b8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#background)"/>
+  <circle cx="680" cy="160" r="190" fill="#fff" opacity=".35"/>
+  <circle cx="110" cy="850" r="230" fill="#fff" opacity=".3"/>
+  <g fill="none" stroke="url(#accent)" stroke-linecap="round" stroke-linejoin="round" opacity=".85">
+    <rect x="280" y="350" width="240" height="190" rx="24" stroke-width="12"/>
+    <path d="m340 475 55-58 42 42 28-29 56 60" stroke-width="12"/>
+    <circle cx="450" cy="405" r="18" stroke-width="10"/>
+  </g>
+  <text x="400" y="625" text-anchor="middle" fill="#252236" font-family="Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="3">EVENT PHOTO</text>
+  <text x="400" y="675" text-anchor="middle" fill="#514d65" font-family="Arial, sans-serif" font-size="23">Replace with the Sunday Glory Service image</text>
+  <rect x="294" y="720" width="212" height="5" rx="2.5" fill="url(#accent)"/>
+</svg>
